@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: postgresql://postgres:SLMvCFnLUsvdgrnTfkvGQJLSyWSsGvgQ@postgres-ryv2.railway.internal:5432/railway
+    url: jdbc:postgresql://postgres-ryv2.railway.internal:5432/railway?sslmode=require
     username: postgres
     password: SLMvCFnLUsvdgrnTfkvGQJLSyWSsGvgQ
     driver-class-name: org.postgresql.Driver
@@ -9,7 +9,3 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-  ssl:
-    enabled: true
-    trust-store: classpath:truststore.jks
-    trust-store-password: changeit
