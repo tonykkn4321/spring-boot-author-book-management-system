@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: prod  # Change to dev/prod/test as needed
+    active: dev  # Change to dev/prod/test as needed
   jpa:
     hibernate:
       ddl-auto: update  # Auto-create/update tables
