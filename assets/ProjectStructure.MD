@@ -21,3 +21,8 @@ spring-boot-author-book-management-system/
 
 # Start command:
 mvn spring-boot:run
+
+
+# In Railway’s dashboard:
+Build Command: mvn clean package
+Start Command: java -jar target/demo-0.0.1-SNAPSHOT.jar
