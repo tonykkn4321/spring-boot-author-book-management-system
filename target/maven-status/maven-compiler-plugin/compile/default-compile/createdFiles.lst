@@ -1,0 +1,7 @@
+com\example\demo\DemoApplication.class
+com\example\demo\repositories\BookRepository.class
+com\example\demo\routes\AuthorController.class
+com\example\demo\models\Book.class
+com\example\demo\models\Author.class
+com\example\demo\repositories\AuthorRepository.class
+com\example\demo\routes\BookController.class
