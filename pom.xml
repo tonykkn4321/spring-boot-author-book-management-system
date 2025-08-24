@@ -59,7 +59,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.example.YourMainClass</mainClass> <!-- Replace with your actual main class -->
+              <mainClass>com.example.demo</mainClass> <!-- Replace with your actual main class -->
             </manifest>
           </archive>
         </configuration>
