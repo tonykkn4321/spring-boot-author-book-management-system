@@ -10,19 +10,20 @@
 
     <properties>
         <java.version>17</java.version>
+        <spring.boot.version>3.1.3</spring.boot.version> <!-- Define version in properties -->
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
-            <version>3.1.3</version>
+            <version>${spring.boot.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>3.1.3</version>
+            <version>${spring.boot.version}</version>
         </dependency>
 
         <dependency>
@@ -43,9 +44,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>3.1.3</version>
+                <version>${spring.boot.version}</version> <!-- Use property for version -->
                 <configuration>
-                    <mainClass>com.example.demo.DemoApplication</mainClass> <!-- Update to your main class -->
+                    <mainClass>com.example.demo.DemoApplication</mainClass> <!-- Main application class -->
                 </configuration>
             </plugin>
         </plugins>
